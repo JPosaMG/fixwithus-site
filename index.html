@@ -31,6 +31,7 @@
     img{max-width:100%;display:block}
     .container{max-width:1180px;margin:0 auto;padding:0 20px}
     header.nav{position:sticky;top:0;z-index:50;background:rgba(11,12,16,.7);backdrop-filter:saturate(150%) blur(8px);border-bottom:1px solid rgba(255,255,255,.06)}
+ 
     .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
     .brand{display:flex;gap:12px;align-items:center}
     .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;box-shadow:var(--shadow)}
@@ -74,6 +75,7 @@
     .notice{border-left:4px solid var(--accent);padding:10px 14px;background:#0e1512;border-radius:10px}
     .map{aspect-ratio:16/9;border:0;border-radius:14px;overflow:hidden;width:100%}
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  
   </style>
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script defer src="https://assets.calendly.com/assets/external/widget.js"></script>
@@ -144,6 +146,7 @@
         <ul>
           <li><a href="#services">Services</a></li>
           <li><a href="#brands">Brands</a></li>
+   
           <li><a href="#gallery">Gallery</a></li>
           <li><a href="#reviews">Reviews</a></li>
           <li><a href="#faq">FAQ</a></li>
@@ -179,7 +182,8 @@
     <section id="services" class="section services container">
       <h2>Services</h2>
       <p class="muted">Diagnostics • Brakes • A/C • Oil Service • Suspension • Cooling • Batteries • Programming</p>
-      <div class="grid cols-3" style="margin-top:14px">
+      <div 
+        class="grid cols-3" style="margin-top:14px">
         <div class="item card"><h3>Dealer‑Level Diagnostics</h3><p>OEM scan tools &amp; data for BMW/Mercedes/Audi/VW and domestic lines.</p></div>
         <div class="item card"><h3>Brake Pads &amp; Rotors</h3><p>Ceramic/low‑dust options, resurfacing, ABS checks, fluid bleed.</p></div>
         <div class="item card"><h3>A/C Service</h3><p>Leak test, recharge, compressors, condensers, and climate diagnostics.</p></div>
