@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fix with Us | European &amp; Domestic Auto Repair • Diagnostics • Brakes • A/C</title>
+  <meta name="description" content="Fix with Us is a high‑end auto repair shop specializing in BMW, Mercedes, Audi, VW, plus American makes like Ford, Chevy, Dodge. Expert diagnostics, brakes, A/C, oil service, and more. Book online or WhatsApp us today." />
+  <!-- The canonical URL will be updated once the production domain is known -->
+  <link rel="canonical" href="#" />
+  <meta name="robots" content="index,follow" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Fix with Us | European &amp; Domestic Auto Repair" />
+  <meta property="og:description" content="BMW • Mercedes • Audi • VW • Ford • Chevy • Dodge • Diagnostics • Brakes • A/C • Oil Service" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="#" />
+  <meta property="og:image" content="#" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fix with Us | European &amp; Domestic Auto Repair" />
+  <meta name="twitter:description" content="BMW • Mercedes • Audi • VW • Ford • Chevy • Dodge • Diagnostics • Brakes • A/C • Oil Service" />
+  <meta name="twitter:image" content="#" />
+
+  <style>
+    :root{
+      --bg:#0b0c10;--fg:#e5e7eb;--muted:#a1a1aa;--brand:#06b6d4;--brand2:#3b82f6;--card:#111318;--accent:#10b981;
+      --radius:18px;--shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:System-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:linear-gradient(180deg,#0b0c10,#0e1116 40%,#0b0c10 100%);color:var(--fg)}
+    a{color:inherit;text-decoration:none}
+    img{max-width:100%;display:block}
+    .container{max-width:1180px;margin:0 auto;padding:0 20px}
+    header.nav{position:sticky;top:0;z-index:50;background:rgba(11,12,16,.7);backdrop-filter:saturate(150%) blur(8px);border-bottom:1px solid rgba(255,255,255,.06)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;box-shadow:var(--shadow)}
+    nav ul{list-style:none;margin:0;padding:0;display:flex;gap:18px}
+    nav a{padding:10px 12px;border-radius:10px;color:#cbd5e1}
+    nav a:hover{background:rgba(255,255,255,.06);color:#fff}
+    .hero{position:relative;overflow:hidden}
+    .hero-wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center;padding:80px 0}
+    .badge{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border-radius:999px;background:rgba(59,130,246,.15);border:1px solid rgba(59,130,246,.35);color:#dbeafe;font-size:13px}
+    h1{font-size:clamp(32px,4vw,52px);line-height:1.1;margin:.5rem 0 1rem}
+    .lead{color:#cbd5e1;font-size:clamp(16px,1.7vw,18px)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+    .btn{padding:12px 16px;border:1px solid rgba(255,255,255,.12);border-radius:12px;background:#141822;color:#fff;box-shadow:var(--shadow);font-size:14px}
+    .btn.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));border:0}
+    .btn.whatsapp{background:#1f2937;border:1px solid #22c55e}
+    .btn:hover{transform:translateY(-1px)}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .section{padding:64px 0}
+    .section h2{font-size:clamp(24px,3.3vw,36px);margin:0 0 12px}
+    .muted{color:var(--muted)}
+    .grid{display:grid;gap:16px}
+    .grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+    .grid.cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+    @media (max-width:900px){.hero-wrap{grid-template-columns:1fr}.grid.cols-3{grid-template-columns:1fr 1fr}}
+    @media (max-width:640px){.grid.cols-3,.grid.cols-2{grid-template-columns:1fr}}
+    .services .item{padding:18px}
+    .services .item h3{margin:.2rem 0 .35rem;font-size:18px}
+    .services .item p{margin:0;color:#cbd5e1;font-size:14px}
+    .pricing .row{display:grid;grid-template-columns:1fr 120px;gap:10px;padding:12px 16px;border-bottom:1px dashed rgba(255,255,255,.08)}
+    .gallery{--size:260px;display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--size),1fr));gap:12px}
+    .gallery figure{position:relative;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+    .gallery figcaption{position:absolute;inset:auto 0 0 0;background:linear-gradient(transparent,rgba(0,0,0,.7));padding:10px 12px;font-size:13px}
+    .review{display:flex;gap:14px}
+    .review .avatar{width:44px;height:44px;border-radius:50%;background:#1f2937;display:grid;place-items:center;font-size:20px}
+    .faq details{background:#0f131b;border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:14px 16px}
+    .faq details+details{margin-top:10px}
+    .footer{background:#0b0c10;border-top:1px solid rgba(255,255,255,.08);padding:40px 0}
+    .kicker{color:#9ca3af;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+    .hours{display:grid;grid-template-columns:160px 1fr;gap:10px}
+    .chip{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(16,185,129,.15);border:1px solid rgba(16,185,129,.35);color:#d1fae5;font-size:12px}
+    .notice{border-left:4px solid var(--accent);padding:10px 14px;background:#0e1512;border-radius:10px}
+    .map{aspect-ratio:16/9;border:0;border-radius:14px;overflow:hidden;width:100%}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  </style>
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script defer src="https://assets.calendly.com/assets/external/widget.js"></script>
+
+  <!-- JSON-LD: AutoRepair + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"AutoRepair",
+    "@id":"#shop",
+    "name":"Fix with Us",
+    "image":"#",
+    "url":"#",
+    "telephone":"+1-646-541-7972",
+    "priceRange":"$$",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"12400 SW 128th St Unit 5",
+      "addressLocality":"Miami",
+      "addressRegion":"FL",
+      "postalCode":"33186",
+      "addressCountry":"US"
+    },
+    "openingHoursSpecification":[
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"10:00","closes":"16:00"}
+    ],
+    "sameAs":["https://wa.me/16465417972"],
+    "makesOffer":[
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"BMW diagnostics & service"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Mercedes (MB) scheduled maintenance"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Audi/VW coding, brakes, A/C"}},
+      {"@type":"Offer","itemOffered":{"@type":"Service","name":"Ford/Chevy/Dodge – tune‑ups & repairs"}},
+      {"@type":"Service","name":"Oil service (synthetic)","serviceType":"Oil change"},
+      {"@type":"Service","name":"Brake pads & rotors","serviceType":"Brake service"},
+      {"@type":"Service","name":"A/C diagnostics & recharge","serviceType":"Air conditioning"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Do you service BMW and other German cars?","acceptedAnswer":{"@type":"Answer","text":"Yes. We specialize in BMW, Mercedes‑Benz, Audi, and Volkswagen with OEM‑level diagnostics and parts options."}},
+      {"@type":"Question","name":"Do you work on American brands too?","acceptedAnswer":{"@type":"Answer","text":"Absolutely—Ford, Chevy, Dodge, and more. We handle brakes, A/C, tune‑ups, and drivability diagnostics."}},
+      {"@type":"Question","name":"Can I book online?","acceptedAnswer":{"@type":"Answer","text":"Yes—use the Book Appointment button to pick a time that works. You can also WhatsApp or call us directly."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="sr-only" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="container nav-inner" role="navigation" aria-label="Main">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <!-- Simple shield/wrench icon using inline SVG -->
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2 L19 6 v7 c0 5-3 8-7 10-4-2-7-5-7-10V6z" />
+            <path d="M14.5 10.5l-3 3-1.5-1.5" />
+          </svg>
+        </div>
+        <strong>Fix with Us</strong>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#brands">Brands</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="container hero-wrap">
+      <div>
+        <span class="badge">European &amp; Domestic Specialists • Since 2016</span>
+        <h1>Precision Auto Care for <em>BMW, German</em> &amp; American Cars</h1>
+        <p class="lead">Dealer‑level diagnostics without dealer prices. From BMW and Mercedes to Ford and Chevy—brakes, A/C, oil,
+          suspension, and electrical diagnostics done right the first time.</p>
+        <div class="cta" aria-label="Primary actions">
+          <button class="btn primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/YOUR_HANDLE/auto-service'});return false;">Book Appointment</button>
+          <a class="btn whatsapp" href="https://wa.me/16465417972" target="_blank" rel="noopener" aria-label="Message us on WhatsApp">WhatsApp Us</a>
+          <a class="btn" href="tel:+16465417972" aria-label="Call us now">Call (646) 541‑7972</a>
+        </div>
+        <div style="margin-top:14px" class="chip">Same‑day diagnostics • OEM/Aftermarket options • 12‑month workmanship warranty</div>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden">
+        <img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1200&auto=format&fit=crop" alt="Modern auto service bay with a BMW on a lift" loading="eager" width="900" height="680">
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Services -->
+    <section id="services" class="section services container">
+      <h2>Services</h2>
+      <p class="muted">Diagnostics • Brakes • A/C • Oil Service • Suspension • Cooling • Batteries • Programming</p>
+      <div class="grid cols-3" style="margin-top:14px">
+        <div class="item card"><h3>Dealer‑Level Diagnostics</h3><p>OEM scan tools &amp; data for BMW/Mercedes/Audi/VW and domestic lines.</p></div>
+        <div class="item card"><h3>Brake Pads &amp; Rotors</h3><p>Ceramic/low‑dust options, resurfacing, ABS checks, fluid bleed.</p></div>
+        <div class="item card"><h3>A/C Service</h3><p>Leak test, recharge, compressors, condensers, and climate diagnostics.</p></div>
+        <div class="item card"><h3>Oil &amp; Factory Maintenance</h3><p>Synthetic oil, OEM filters, service lights reset, digital records.</p></div>
+        <div class="item card"><h3>Suspension &amp; Steering</h3><p>Struts/shocks, control arms, bushings, alignments arranged.</p></div>
+        <div class="item card"><h3>Electrical &amp; Batteries</h3><p>Battery registration (BMW), alternators, starters, parasitic draw tests.</p></div>
+      </div>
+      <div class="notice" style="margin-top:16px">Upfront estimates, no surprises. We’ll show parts options (OEM vs quality aftermarket) and let you decide.</div>
+    </section>
+
+    <!-- Brands -->
+    <section id="brands" class="section container">
+      <h2>European &amp; American Brands We Service</h2>
+      <p class="muted">European: BMW • Mercedes‑Benz • Audi • Volkswagen • MINI • Porsche<br>American: Ford • Chevrolet • GMC • Dodge • RAM • Jeep</p>
+      <div class="grid cols-3" style="margin-top:14px">
+        <div class="card services item"><h3>BMW Specialists</h3><p>Diagnostics, brake service, cooling systems, battery registration, iDrive warnings.</p></div>
+        <div class="card services item"><h3>Mercedes‑Benz</h3><p>Service A/B, SBC/ABS diagnostics, A/C and suspension (AIRMATIC) support.</p></div>
+        <div class="card services item"><h3>Audi &amp; VW</h3><p>VCDS/ODIS‑level diagnostics, coding, carbon cleaning, DSG service.</p></div>
+        <div class="card services item"><h3>Ford &amp; Chevy</h3><p>Brakes, tune‑ups, drivability, A/C, electrical and emissions.</p></div>
+        <div class="card services item"><h3>Dodge/RAM/Jeep</h3><p>Cooling, suspension, 4x4 systems, charging systems, and more.</p></div>
+        <div class="card services item"><h3>Fleet Friendly</h3><p>Quick turn‑around, digital records, and predictable maintenance plans.</p></div>
+      </div>
+    </section>
+
+    <!-- Pricing preview -->
+    <section class="section pricing container">
+      <h2>Transparent Pricing</h2>
+      <div class="card" role="table" aria-label="Sample price list">
+        <div class="row" role="row"><div role="cell">Synthetic oil service (up to 5 qt)</div><div role="cell">$XX</div></div>
+        <div class="row" role="row"><div role="cell">Brake pads (per axle) + labor</div><div role="cell">$XX</div></div>
+        <div class="row" role="row"><div role="cell">A/C recharge + leak test</div><div role="cell">$XX</div></div>
+        <div class="row" role="row"><div role="cell">Computer diagnostics</div><div role="cell">$XX</div></div>
+      </div>
+      <p class="muted" style="margin-top:10px">Final quotes depend on your exact model &amp; VIN—message us for a fast estimate.</p>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="section container">
+      <h2>Shop &amp; Work Gallery</h2>
+      <p class="muted">A look at our bay, tools, and recent repairs.</p>
+      <div class="gallery" aria-label="Photo gallery">
+        <figure class="card"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop" alt="BMW brake job in progress"><figcaption>BMW brake service</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop" alt="Mercedes engine bay during diagnostics"><figcaption>Mercedes diagnostics</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1515923162046-6eb3a67b36df?q=80&w=1200&auto=format&fit=crop" alt="Audi ECU scan on shop tablet"><figcaption>Audi scan &amp; coding</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1517059224940-d4af9eec41e5?q=80&w=1200&auto=format&fit=crop" alt="Volkswagen A/C service machine connected"><figcaption>VW A/C service</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1200&auto=format&fit=crop" alt="Ford F‑150 suspension components on bench"><figcaption>Ford suspension</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop" alt="Chevy alternator replacement"><figcaption>Chevy charging system</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?q=80&w=1200&auto=format&fit=crop" alt="Porsche wheel and brake rotor"><figcaption>Porsche brakes</figcaption></figure>
+        <figure class="card"><img src="https://images.unsplash.com/photo-1516981879613-9f5da904015f?q=80&w=1200&auto=format&fit=crop" alt="Diagnostic tools neatly arranged"><figcaption>Our tools</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section container">
+      <h2>Customer Reviews</h2>
+      <div class="grid cols-3" style="margin-top:14px">
+        <div class="card" style="padding:16px" aria-label="review">
+          <div class="review"><div class="avatar">⭐</div><div><strong>Marco P.</strong><br><span class="muted">BMW 5‑Series</span><p>Found the electrical short in one visit. Honest, clear pricing.</p></div></div>
+        </div>
+        <div class="card" style="padding:16px" aria-label="review">
+          <div class="review"><div class="avatar">⭐</div><div><strong>Ashley R.</strong><br><span class="muted">Mercedes C‑Class</span><p>Service B and brakes done same day. Car drives like new.</p></div></div>
+        </div>
+        <div class="card" style="padding:16px" aria-label="review">
+          <div class="review"><div class="avatar">⭐</div><div><strong>David K.</strong><br><span class="muted">Ford F‑150</span><p>Transparent estimate. No upsell—just what I needed.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section container faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary><strong>Do you specialize in BMW and other German makes?</strong></summary>
+        <p>Yes. Our diagnostics cover BMW, Mercedes‑Benz, Audi, VW, and more. We use OEM‑level data and offer OEM or high‑quality aftermarket parts.</p>
+      </details>
+      <details>
+        <summary><strong>Do you service American brands?</strong></summary>
+        <p>Absolutely—Ford, Chevrolet, Dodge, RAM, Jeep and others. Brakes, A/C, tune‑ups, drivability, and electrical are daily work for us.</p>
+      </details>
+      <details>
+        <summary><strong>Do you provide estimates online?</strong></summary>
+        <p>Yes. Send your VIN and the symptoms via WhatsApp or the contact form and we’ll estimate quickly.</p>
+      </details>
+      <details>
+        <summary><strong>What warranty do you offer?</strong></summary>
+        <p>12‑month workmanship warranty. Parts follow manufacturer warranty terms.</p>
+      </details>
+    </section>
+
+    <!-- Contact / Location -->
+    <section id="contact" class="section container">
+      <div class="grid cols-2">
+        <div>
+          <h2>Contact &amp; Booking</h2>
+          <p class="muted">Message us on WhatsApp for the fastest response, or book an appointment online.</p>
+          <div class="cta">
+            <button class="btn primary" onclick="Calendly.initPopupWidget({url:'https://calendly.com/YOUR_HANDLE/auto-service'});return false;">Book Appointment</button>
+            <a class="btn whatsapp" href="https://wa.me/16465417972" target="_blank" rel="noopener">WhatsApp Us</a>
+            <a class="btn" href="tel:+16465417972">Call (646) 541‑7972</a>
+          </div>
+          <div style="margin-top:16px">
+            <div class="kicker">Hours</div>
+            <div class="card" style="padding:16px;margin-top:8px">
+              <div class="hours">
+                <div>Mon–Fri</div><div>9:00 AM – 6:00 PM</div>
+                <div>Saturday</div><div>10:00 AM – 4:00 PM</div>
+                <div>Sunday</div><div>Closed</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Find Us</h2>
+          <p>Fix with Us<br>12400 SW 128th St Unit 5, Miami, FL 33186</p>
+          <iframe class="map" loading="lazy" allowfullscreen
+            src="https://www.google.com/maps?q=12400+SW+128th+St+Unit+5+Miami+FL+33186&output=embed">
+          </iframe>
+          <p class="muted">Parking available. After‑hours key drop by request.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="grid cols-3">
+        <div>
+          <strong>Fix with Us</strong>
+          <p class="muted">European &amp; Domestic Auto Repair</p>
+          <p>12400 SW 128th St Unit 5, Miami, FL 33186<br><a href="tel:+16465417972">(646) 541‑7972</a> • <a href="https://wa.me/16465417972" target="_blank" rel="noopener">WhatsApp</a></p>
+        </div>
+        <div>
+          <div class="kicker">Quick Links</div>
+          <p><a href="#services">Services</a> • <a href="#brands">Brands</a> • <a href="#gallery">Gallery</a> • <a href="#faq">FAQ</a> • <a href="#contact">Contact</a></p>
+        </div>
+        <div>
+          <div class="kicker">Book Now</div>
+          <p><a class="btn primary" href="#" onclick="Calendly.initPopupWidget({url:'https://calendly.com/YOUR_HANDLE/auto-service'});return false;">Book Appointment</a></p>
+          <p class="muted">© <span id="year"></span> Fix with Us. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
