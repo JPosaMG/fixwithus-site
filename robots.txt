@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # The sitemap URL will be updated once the production domain is known
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://fixwithusmiami.com/sitemap.xml
