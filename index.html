@@ -34,8 +34,13 @@
     .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
     .brand{display:flex;gap:12px;align-items:center}
     /* Custom logo image */
+    /*
+      Increase the size of the logo so it stands out more in the header.
+      We keep width:auto so the aspect ratio remains correct. A larger height
+      gives the logo more visual weight on desktop and mobile.
+    */
     .logo-img{
-      height:36px;
+      height:48px;
       width:auto;
       border-radius:10px;
       object-fit:contain;
@@ -111,7 +116,9 @@
       */
     @media (max-width:768px){
       /* Stack header content and reveal a hamburger toggle on small screens */
-      .nav-inner{flex-direction:column;align-items:flex-start;height:auto;padding:12px 0}
+      /* On small screens, stack header items and center them so the logo and navigation
+         feel balanced. */
+      .nav-inner{flex-direction:column;align-items:center;height:auto;padding:12px 0}
       .nav-toggle{display:flex}
 
       /* Hide the navigation by default and show it when toggled open */
